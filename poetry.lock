@@ -455,6 +455,21 @@ embeddings = ["matplotlib", "numpy", "openpyxl (>=3.0.7)", "pandas (>=1.2.3)", "
 wandb = ["numpy", "openpyxl (>=3.0.7)", "pandas (>=1.2.3)", "pandas-stubs (>=1.1.0.11)", "wandb"]
 
 [[package]]
+name = "promptlayer"
+version = "0.2.1"
+description = "PromptLayer is a package to keep track of your GPT models training"
+category = "main"
+optional = false
+python-versions = ">=3.8.1,<4.0"
+files = [
+    {file = "promptlayer-0.2.1-py3-none-any.whl", hash = "sha256:8e7b3571b896a979212bc76686c7661bf89d726ff4abb5297ad53e9feec9ce45"},
+    {file = "promptlayer-0.2.1.tar.gz", hash = "sha256:b92e8c3a2ab7528ad34ba8b6e4ac6d24c10273a6d7a34d396516bfb13ffa2267"},
+]
+
+[package.dependencies]
+requests = ">=2.31.0,<3.0.0"
+
+[[package]]
 name = "requests"
 version = "2.31.0"
 description = "Python HTTP for Humans."
@@ -606,4 +621,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "419aa3debee9df0d7dd679a2560258f134e18b7238b695a280439213bf4dca8e"
+content-hash = "97a9e51042076c08322bee60a02394e400159f1e6f969547ef94868f26f9b219"
