@@ -30,7 +30,7 @@ def split_text_into_chunks(text, chunk_size=32_000):
 
 
 def main():
-    with open('./ukraine.txt', 'r') as file:
+    with open('./school-meals.txt', 'r') as file:
         content = file.read()
 
     # Split the content into chunks
