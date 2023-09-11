@@ -1,0 +1,472 @@
+118th CONGRESS
+  1st Session
+                                H. R. 4542
+
+   To support research, development, and other activities to develop
+        innovative vehicle technologies, and for other purposes.
+
+
+_______________________________________________________________________
+
+
+                    IN THE HOUSE OF REPRESENTATIVES
+
+                             July 11, 2023
+
+  Mrs. Dingell (for herself and Ms. Stevens) introduced the following
+   bill; which was referred to the Committee on Science, Space, and
+ Technology, and in addition to the Committee on Energy and Commerce,
+for a period to be subsequently determined by the Speaker, in each case
+for consideration of such provisions as fall within the jurisdiction of
+                        the committee concerned
+
+_______________________________________________________________________
+
+                                 A BILL
+
+
+
+   To support research, development, and other activities to develop
+        innovative vehicle technologies, and for other purposes.
+
+    Be it enacted by the Senate and House of Representatives of the
+United States of America in Congress assembled,
+
+SECTION 1. SHORT TITLE.
+
+    This Act may be cited as the ``Vehicle Innovation Act of 2023''.
+
+SEC. 2. DEFINITIONS.
+
+    In this Act:
+            (1) Department.--The term ``Department'' means the
+        Department of Energy.
+            (2) Secretary.--The term ``Secretary'' means the Secretary
+        of Energy.
+
+SEC. 3. OBJECTIVES.
+
+    The objectives of this Act are--
+            (1) to establish a consistent and consolidated authority
+        for the vehicle technology program at the Department;
+            (2) to develop United States technologies and practices
+        that improve the fuel efficiency and emissions of all vehicles
+        produced in the United States;
+            (3) to support domestic research, development, engineering,
+        demonstration, and commercial application and manufacturing of
+        advanced vehicles, engines, and components;
+            (4) to enable vehicles to move larger volumes of goods and
+        more passengers with less energy and emissions;
+            (5) to develop cost-effective advanced technologies for
+        wide-scale utilization throughout the passenger, commercial,
+        government, and transit vehicle sectors;
+            (6) to allow for greater consumer choice of vehicle
+        technologies and fuels;
+            (7) shorten technology development and integration cycles
+        in the vehicle industry;
+            (8) to ensure a proper balance and diversity of Federal
+        investment in vehicle technologies; and
+            (9) to strengthen partnerships between Federal and State
+        governmental agencies and the private and academic sectors.
+
+SEC. 4. COORDINATION AND NONDUPLICATION.
+
+    The Secretary shall ensure, to the maximum extent practicable, that
+the activities authorized by this Act do not duplicate those of other
+programs within the Department or other relevant research agencies.
+
+SEC. 5. AUTHORIZATION OF APPROPRIATIONS.
+
+    There are authorized to be appropriated to the Secretary for
+research, development, engineering, demonstration, and commercial
+application of vehicles and related technologies in the United States,
+including activities authorized under this Act--
+            (1) for fiscal year 2024, $313,567,000;
+            (2) for fiscal year 2025, $326,109,000;
+            (3) for fiscal year 2026, $339,154,000;
+            (4) for fiscal year 2027, $352,720,000; and
+            (5) for fiscal year 2028, $366,829,000.
+
+SEC. 6. REPORTING.
+
+    (a) Technologies Developed.--Not later than 18 months after the
+date of enactment of this Act and annually thereafter through 2028, the
+Secretary shall submit to Congress a report regarding the technologies
+developed as a result of the activities authorized by this Act, with a
+particular emphasis on whether the technologies were successfully
+adopted for commercial applications, and if so, whether products
+relying on those technologies are manufactured in the United States.
+    (b) Additional Matters.--At the end of each fiscal year through
+2028, the Secretary shall submit to the relevant Congressional
+committees of jurisdiction an annual report describing activities
+undertaken in the previous year under this Act, active industry
+participants, the status of public-private partnerships, progress of
+the program in meeting goals and timelines, and a strategic plan for
+funding of activities across agencies.
+
+SEC. 7. VEHICLE RESEARCH AND DEVELOPMENT.
+
+    (a) Program.--
+            (1) Activities.--The Secretary shall conduct a program of
+        basic and applied research, development, engineering,
+        demonstration, and commercial application activities on
+        materials, technologies, and processes with the potential to
+        substantially reduce petroleum use and the emissions of the
+        passenger and commercial vehicles of the United States,
+        including activities in the areas of--
+                    (A) electrification of vehicle systems;
+                    (B) batteries, ultracapacitors, and other energy
+                storage devices;
+                    (C) power electronics;
+                    (D) vehicle, component, and subsystem manufacturing
+                technologies and processes;
+                    (E) engine efficiency and combustion optimization;
+                    (F) waste heat recovery;
+                    (G) transmission and drivetrains;
+                    (H) hydrogen vehicle technologies, including fuel
+                cells and internal combustion engines, and hydrogen
+                infrastructure, including hydrogen energy storage to
+                enable renewables and provide hydrogen for fuel and
+                power;
+                    (I) natural gas vehicle technologies;
+                    (J) aerodynamics, rolling resistance (including
+                tires and wheel assemblies), and accessory power loads
+                of vehicles and associated equipment;
+                    (K) vehicle weight reduction, including
+                lightweighting materials and the development of
+                manufacturing processes to fabricate, assemble, and use
+                dissimilar materials;
+                    (L) friction and wear reduction;
+                    (M) engine and component durability;
+                    (N) innovative propulsion systems;
+                    (O) advanced boosting systems;
+                    (P) hydraulic hybrid technologies;
+                    (Q) engine compatibility with and optimization for
+                a variety of transportation fuels including natural gas
+                and other liquid and gaseous fuels;
+                    (R) predictive engineering, modeling, and
+                simulation of vehicle and transportation systems;
+                    (S) refueling and charging infrastructure for
+                alternative fueled and electric or plug-in electric
+                hybrid vehicles, including the unique challenges facing
+                rural areas;
+                    (T) gaseous fuels storage systems and system
+                integration and optimization;
+                    (U) sensing, communications, and actuation
+                technologies for vehicle, electrical grid, and
+                infrastructure;
+                    (V) efficient use, substitution, and recycling of
+                potentially critical materials in vehicles, including
+                rare earth elements and precious metals, at risk of
+                supply disruption;
+                    (W) aftertreatment technologies;
+                    (X) thermal management of battery systems;
+                    (Y) retrofitting advanced vehicle technologies to
+                existing vehicles;
+                    (Z) development of common standards,
+                specifications, and architectures for both
+                transportation and stationary battery applications;
+                    (AA) advanced internal combustion engines;
+                    (BB) mild hybrid;
+                    (CC) engine down speeding;
+                    (DD) vehicle-to-vehicle, vehicle-to-pedestrian, and
+                vehicle-to-infrastructure technologies; and
+                    (EE) other research areas as determined by the
+                Secretary.
+            (2) Transformational technology.--The Secretary shall
+        ensure that the Department continues to support research,
+        development, engineering, demonstration, and commercial
+        application activities and maintains competency in mid- to
+        long-term transformational vehicle technologies with potential
+        to achieve reductions in emissions, including activities in the
+        areas of--
+                    (A) hydrogen vehicle technologies, including fuel
+                cells, hydrogen storage, infrastructure, and activities
+                in hydrogen technology validation and safety codes and
+                standards;
+                    (B) multiple battery chemistries and novel energy
+                storage devices, including nonchemical batteries and
+                electromechanical storage technologies such as
+                hydraulics, flywheels, and compressed air storage;
+                    (C) communication and connectivity among vehicles,
+                infrastructure, and the electrical grid; and
+                    (D) other innovative technologies research and
+                development, as determined by the Secretary.
+            (3) Industry participation.--
+                    (A) In general.--To the maximum extent practicable,
+                activities under this Act shall be carried out in
+                partnership or collaboration with automotive
+                manufacturers, heavy commercial, vocational, and
+                transit vehicle manufacturers, qualified plug-in
+                electric vehicle manufacturers, compressed natural gas
+                vehicle manufacturers, vehicle and engine equipment and
+                component manufacturers, manufacturing equipment
+                manufacturers, advanced vehicle service providers, fuel
+                producers and energy suppliers, electric utilities,
+                universities, national laboratories, and independent
+                research laboratories.
+                    (B) Requirements.--In carrying out this Act, the
+                Secretary shall--
+                            (i) determine whether a wide range of
+                        companies that manufacture or assemble vehicles
+                        or components in the United States are
+                        represented in ongoing public-private
+                        partnership activities, including firms that
+                        have not traditionally participated in
+                        federally sponsored research and development
+                        activities, and where possible, partner with
+                        such firms that conduct significant and
+                        relevant research and development activities in
+                        the United States;
+                            (ii) leverage the capabilities and
+                        resources of, and formalize partnerships with,
+                        industry-led stakeholder organizations,
+                        nonprofit organizations, industry consortia,
+                        and trade associations with expertise in the
+                        research and development of, and education and
+                        outreach activities in, advanced automotive and
+                        commercial vehicle technologies;
+                            (iii) develop more effective processes for
+                        transferring research findings and technologies
+                        to industry;
+                            (iv) support public-private partnerships,
+                        dedicated to overcoming barriers in commercial
+                        application of transformational vehicle
+                        technologies, that use such industry-led
+                        technology development facilities of entities
+                        with demonstrated expertise in successfully
+                        designing and engineering pre-commercial
+                        generations of such transformational
+                        technology; and
+                            (v) promote efforts to ensure that
+                        technology research, development, engineering,
+                        and commercial application activities funded
+                        under this Act are carried out in the United
+                        States.
+            (4) Interagency and intraagency coordination.--To the
+        maximum extent practicable, the Secretary shall coordinate
+        research, development, demonstration, and commercial
+        application activities among--
+                    (A) relevant programs within the Department,
+                including--
+                            (i) the Office of Energy Efficiency and
+                        Renewable Energy;
+                            (ii) the Office of Science;
+                            (iii) the Office of Electricity Delivery
+                        and Energy Reliability;
+                            (iv) the Office of Fossil Energy;
+                            (v) the Advanced Research Projects Agency--
+                        Energy; and
+                            (vi) other offices as determined by the
+                        Secretary; and
+                    (B) relevant technology research and development
+                programs within other Federal agencies, as determined
+                by the Secretary.
+            (5) Federal demonstration of technologies.--The Secretary
+        shall make information available to procurement programs of
+        Federal agencies regarding the potential to demonstrate
+        technologies resulting from activities funded through programs
+        under this Act.
+            (6) Intergovernmental coordination.--The Secretary shall
+        seek opportunities to leverage resources and support
+        initiatives of State and local governments in developing and
+        promoting advanced vehicle technologies, manufacturing, and
+        infrastructure.
+            (7) Criteria.--In awarding grants under the program under
+        this subsection, the Secretary shall give priority to those
+        technologies (either individually or as part of a system)
+        that--
+                    (A) provide the greatest aggregate fuel savings
+                based on the reasonable projected sales volumes of the
+                technology; and
+                    (B) provide the greatest increase in United States
+                employment.
+            (8) Secondary use applications.--
+                    (A) In general.--The Secretary shall carry out a
+                research, development, and demonstration program that--
+                            (i) builds on any work carried out under
+                        section 915 of the Energy Policy Act of 2005
+                        (42 U.S.C. 16195);
+                            (ii) identifies possible uses of a vehicle
+                        battery after the useful life of the battery in
+                        a vehicle has been exhausted;
+                            (iii) conducts long-term testing to verify
+                        performance and degradation predictions and
+                        lifetime valuations for secondary uses;
+                            (iv) evaluates innovative approaches to
+                        recycling materials from plug-in electric drive
+                        vehicles and the batteries used in plug-in
+                        electric drive vehicles;
+                            (v)(I) assesses the potential for markets
+                        for uses described in clause (ii) to develop;
+                        and
+                            (II) identifies any barriers to the
+                        development of those markets; and
+                            (vi) identifies the potential uses of a
+                        vehicle battery--
+                                    (I) with the most promise for
+                                market development; and
+                                    (II) for which market development
+                                would be aided by a demonstration
+                                project.
+                    (B) Report.--Not later than 1 year after the date
+                of enactment of this Act, the Secretary shall submit to
+                the appropriate committees of Congress an initial
+                report on the findings of the program described in
+                subparagraph (A), including recommendations for
+                stationary energy storage and other potential
+                applications for batteries used in plug-in electric
+                drive vehicles.
+                    (C) Secondary use demonstration.--
+                            (i) In general.--Based on the results of
+                        the program described in subparagraph (A), the
+                        Secretary shall develop guidelines for projects
+                        that demonstrate the secondary uses and
+                        innovative recycling of vehicle batteries.
+                            (ii) Publication of guidelines.--Not later
+                        than 18 months after the date of enactment of
+                        this Act, the Secretary shall--
+                                    (I) publish the guidelines
+                                described in clause (i); and
+                                    (II) solicit applications for
+                                funding for demonstration projects.
+                            (iii) Pilot demonstration program.--Not
+                        later than 21 months after the date of
+                        enactment of this Act, the Secretary shall
+                        select proposals for grant funding under this
+                        subsection, based on an assessment of which
+                        proposals are mostly likely to contribute to
+                        the development of a secondary market for
+                        batteries.
+    (b) Manufacturing.--The Secretary shall carry out a research,
+development, engineering, demonstration, and commercial application
+program of advanced vehicle manufacturing technologies and practices,
+including innovative processes--
+            (1) to increase the production rate and decrease the cost
+        of advanced battery and fuel cell manufacturing;
+            (2) to vary the capability of individual manufacturing
+        facilities to accommodate different battery chemistries and
+        configurations;
+            (3) to reduce waste streams, emissions, and energy
+        intensity of vehicle, engine, advanced battery, and component
+        manufacturing processes;
+            (4) to recycle and remanufacture used batteries and other
+        vehicle components for reuse in vehicles or stationary
+        applications;
+            (5) to develop manufacturing processes to effectively
+        fabricate, assemble, and produce cost-effective lightweight
+        materials such as advanced aluminum and other metal alloys,
+        polymeric composites, and carbon fiber for use in vehicles;
+            (6) to produce lightweight high pressure storage systems
+        for gaseous fuels;
+            (7) to design and manufacture purpose-built hydrogen fuel
+        cell vehicles and components;
+            (8) to improve the calendar life and cycle life of advanced
+        batteries; and
+            (9) to produce permanent magnets for advanced vehicles.
+
+SEC. 8. MEDIUM- AND HEAVY-DUTY COMMERCIAL AND TRANSIT VEHICLES PROGRAM.
+
+    The Secretary, in partnership with relevant research and
+development programs in other Federal agencies, and a range of
+appropriate industry stakeholders, shall carry out a program of
+cooperative research, development, demonstration, and commercial
+application activities on advanced technologies for medium- to heavy-
+duty commercial, vocational, recreational, and transit vehicles,
+including activities in the areas of--
+            (1) engine efficiency and combustion research;
+            (2) onboard storage technologies for compressed and
+        liquefied natural gas;
+            (3) development and integration of engine technologies
+        designed for natural gas operation of a variety of vehicle
+        platforms;
+            (4) waste heat recovery and conversion;
+            (5) improved aerodynamics and tire rolling resistance;
+            (6) energy and space-efficient emissions control systems;
+            (7) mild hybrid, heavy hybrid, hybrid hydraulic, plug-in
+        hybrid, and electric platforms, and energy storage
+        technologies;
+            (8) drivetrain optimization;
+            (9) friction and wear reduction;
+            (10) engine idle and parasitic energy loss reduction;
+            (11) electrification of accessory loads;
+            (12) onboard sensing and communications technologies;
+            (13) advanced lightweighting materials and vehicle designs;
+            (14) increasing load capacity per vehicle;
+            (15) thermal management of battery systems;
+            (16) recharging infrastructure;
+            (17) compressed natural gas infrastructure;
+            (18) advanced internal combustion engines;
+            (19) complete vehicle and power pack modeling, simulation,
+        and testing;
+            (20) hydrogen vehicle technologies, including fuel cells
+        and internal combustion engines, and hydrogen infrastructure,
+        including hydrogen energy storage to enable renewables and
+        provide hydrogen for fuel and power;
+            (21) retrofitting advanced technologies onto existing truck
+        fleets;
+            (22) advanced boosting systems;
+            (23) engine down speeding; and
+            (24) integration of these and other advanced systems onto a
+        single truck and trailer platform.
+
+SEC. 9. CLASS 8 TRUCK AND TRAILER SYSTEMS DEMONSTRATION.
+
+    (a) In General.--The Secretary shall conduct a competitive grant
+program to demonstrate the integration of multiple advanced
+technologies on Class 8 truck and trailer platforms, including a
+combination of technologies listed in section 8.
+    (b) Applicant Teams.--Applicant teams may be comprised of truck and
+trailer manufacturers, engine and component manufacturers, fleet
+customers, university researchers, and other applicants as appropriate
+for the development and demonstration of integrated Class 8 truck and
+trailer systems.
+
+SEC. 10. TECHNOLOGY TESTING AND METRICS.
+
+    The Secretary, in coordination with the partners of the interagency
+research program described in section 8--
+            (1) shall develop standard testing procedures and
+        technologies for evaluating the performance of advanced heavy
+        vehicle technologies under a range of representative duty
+        cycles and operating conditions, including for heavy hybrid
+        propulsion systems;
+            (2) shall evaluate heavy vehicle performance using work
+        performance-based metrics other than those based on miles per
+        gallon, including those based on units of volume and weight
+        transported for freight applications, and appropriate metrics
+        based on the work performed by nonroad systems; and
+            (3) may construct heavy duty truck and bus testing
+        facilities.
+
+SEC. 11. NONROAD SYSTEMS PILOT PROGRAM.
+
+    The Secretary shall undertake a pilot program of research,
+development, demonstration, and commercial applications of technologies
+to improve total machine or system efficiency for nonroad mobile
+equipment including agricultural, construction, air, and sea port
+equipment, and shall seek opportunities to transfer relevant research
+findings and technologies between the nonroad and on-highway equipment
+and vehicle sectors.
+
+SEC. 12. REPEAL OF EXISTING AUTHORITIES.
+
+    (a) In General.--Sections 706, 711, 712, and 933 of the Energy
+Policy Act of 2005 (42 U.S.C. 16051, 16061, 16062, 16233) are repealed.
+    (b) Energy Efficiency.--Section 911 of the Energy Policy Act of
+2005 (42 U.S.C. 16191) is amended--
+            (1) in subsection (a)--
+                    (A) in paragraph (1)(A), by striking ``vehicles,
+                buildings,'' and inserting ``buildings''; and
+                    (B) in paragraph (2)--
+                            (i) by striking subparagraph (A); and
+                            (ii) by redesignating subparagraphs (B)
+                        through (E) as subparagraphs (A) through (D),
+                        respectively; and
+            (2) in subsection (c)--
+                    (A) by striking paragraph (3);
+                    (B) by redesignating paragraph (4) as paragraph
+                (3); and
+                    (C) in paragraph (3) (as so redesignated), by
+                striking ``(a)(2)(D)'' and inserting ``(a)(2)(C)''.
+                                 <all>
