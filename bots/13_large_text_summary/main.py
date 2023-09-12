@@ -5,17 +5,21 @@ openai.api_key = os.getenv('OPENAI_API_KEY')
 
 
 def generate_summary(text):
-    response = openai.Completion.create(
-        engine='text-davinci-003',
-        prompt=f'Summarize the following into a single unformatted paragraph:\n{text}',
-        max_tokens=250,
+    response = openai.ChatCompletion.create(
+        model='gpt-4',
+        messages=[
+            {'role': 'system', 'content': 'You are a helpful assistant. Summarize the text provided.'},
+            {'role': 'user', 'content': text}
+        ],
+        max_tokens=1_000,
     )
-    print(response.choices[0].text.strip())
+    summary = response.choices[0].message['content'].strip()
+    print(summary)
     print('*' * 120)
-    return response.choices[0].text.strip()
+    return summary
 
 
-def split_text_into_chunks(text, chunk_size=10_000):
+def split_text_into_chunks(text, chunk_size=32_000):
     chunks = []
 
     for i in range(0, len(text), chunk_size):
@@ -26,7 +30,7 @@ def split_text_into_chunks(text, chunk_size=10_000):
 
 
 def main():
-    with open('./bill.txt', 'r') as file:
+    with open('./woodpecker.txt', 'r') as file:
         content = file.read()
 
     # Split the content into chunks
