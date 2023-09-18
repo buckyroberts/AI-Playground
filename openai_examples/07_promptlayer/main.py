@@ -12,7 +12,7 @@ Makes your request to OpenAI and then log the request to PromptLayer
 
 response = openai.Completion.create(
     engine='text-davinci-003',
-    prompt='Recommend a movie.',
+    prompt='Recommend a book.',
     max_tokens=64,
     pl_tags=['movies']
 )
