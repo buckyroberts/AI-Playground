@@ -29,4 +29,4 @@ while True:
     print(f'Granny: {granny_response}')
 
     # Add grandmas message to the conversation history
-    messages.append({'role': 'system', 'content': granny_response})
+    messages.append({'role': 'assistant', 'content': granny_response})
