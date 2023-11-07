@@ -17,7 +17,7 @@ response = openai.ChatCompletion.create(
     ],
     temperature=0.5,
     max_tokens=64,
-    pl_tags=['history']
+    pl_tags=['US Presidents']
 )
 
 print(response)
