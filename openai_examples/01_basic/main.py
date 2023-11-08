@@ -1,7 +1,6 @@
-import os
-import openai
+from openai import OpenAI
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
+client = OpenAI()
 
 """
 Request data
@@ -23,7 +22,7 @@ max_tokens
 - The maximum number of tokens to generate in the chat completion.
 """
 
-response = openai.ChatCompletion.create(
+response = client.chat.completions.create(
     model='gpt-3.5-turbo',
     messages=[
         {'role': 'system', 'content': 'You are a helpful assistant.'},
@@ -61,6 +60,6 @@ https://platform.openai.com/docs/api-reference/chat/object
 }
 """
 
-print(response)
-print()
+# print(response)
+# print()
 print(response.choices[0].message.content)
