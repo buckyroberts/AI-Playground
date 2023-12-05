@@ -3,6 +3,7 @@ import promptlayer
 promptlayer.api_key = os.environ.get('PROMPTLAYER_API_KEY')
 OpenAI = promptlayer.openai.OpenAI
 client = OpenAI()
+
 """
 Prompt templates are customizable prompt strings with placeholders for variables.
 """
@@ -13,18 +14,20 @@ assistant_type = promptlayer.prompts.get('assistant_type')
 # By default, the newest version of a prompt is returned.
 # assistant_type = promptlayer.prompts.get('assistant_type', version=1)
 
+variables = {
+    'type': 'english'
+}
+
 assistant_type_template = assistant_type['messages'][0]['prompt']['template']
 
-variables = {
-    'type': 'math'
-}
+content = assistant_type_template.format(**variables)
 
 response, pl_request_id = client.chat.completions.create(
     model='gpt-3.5-turbo-1106',
     messages=[
-        {'role': 'system', 'content': assistant_type_template.format(**variables)},
+        {'role': 'system', 'content': content},
         {'role': 'user', 'content': 'What is HTML?'}
-        ],
+    ],
     return_pl_id=True
 )
 
