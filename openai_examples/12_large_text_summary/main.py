@@ -1,77 +1,89 @@
-import os
-
-import openai
 from PyPDF2 import PdfReader
+from openai import OpenAI
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
-
+client = OpenAI()
 
 def generate_summary(text):
-    response = openai.ChatCompletion.create(
-        model='gpt-4',
+    """
+    Generates a summary of the provided text using the OpenAI GPT-3.5 Turbo model.
+    
+    Args:
+        text (str): Text to be summarized.
+
+    Returns:
+        str: Summary of the text.
+    """
+    response = client.chat.completions.create(
+        model='gpt-3.5-turbo-1106',
         messages=[
             {'role': 'system', 'content': 'You are a helpful assistant. Summarize the text provided.'},
             {'role': 'user', 'content': text}
         ],
-        max_tokens=1_000,
+        max_tokens=1000
     )
-    summary = response.choices[0].message['content'].strip()
-    print(summary)
-    print('-' * 120)
+    summary = response.choices[0].message.content.strip()
     return summary
 
-
 def pdf_to_text(pdf_path):
+    """
+    Converts a PDF file to text.
+
+    Args:
+        pdf_path (str): Path to the PDF file.
+
+    Returns:
+        str: Extracted text from the PDF file.
+    """
     reader = PdfReader(pdf_path)
-    extracted_texts = []
+    extracted_texts = [page.extract_text() for page in reader.pages]
+    return ' '.join(extracted_texts).replace('\n', ' ')
 
-    for page in reader.pages:
-        extracted_texts.append(page.extract_text())
+def split_text_into_chunks(text, chunk_size=32000):
+    """
+    Splits text into smaller chunks.
 
-    text = ' '.join(extracted_texts)  # join all the extracted text fragments with spaces in between
-    text = text.replace('\n', ' ')  # replace all newline characters with spaces
+    Args:
+        text (str): Text to be split.
+        chunk_size (int, optional): Size of each chunk. Defaults to 32,000.
 
-    return text
-
+    Returns:
+        list[str]: List of text chunks.
+    """
+    return [text[i:i + chunk_size] for i in range(0, len(text), chunk_size)]
 
 def summarize_large_content(content):
-    # Split the content into chunks
+    """
+    Generates a summary for large content.
+
+    Args:
+        content (str): Large content to be summarized.
+
+    Returns:
+        str: Summary of the large content.
+    """
     chunks = split_text_into_chunks(content)
-
-    # Generate summaries for each chunk
     chunk_summaries = [generate_summary(chunk) for chunk in chunks]
-
-    # Combine chunk summaries and generate a final summary
     combined_text = ' '.join(chunk_summaries)
-
     return generate_summary(combined_text)
 
+def summarize_document(file_path, is_pdf=False):
+    """
+    Generates a summary of a text or PDF document.
 
-def split_text_into_chunks(text, chunk_size=32_000):
-    chunks = []
-
-    for i in range(0, len(text), chunk_size):
-        chunk = text[i:i + chunk_size]
-        chunks.append(chunk)
-
-    return chunks
-
-
-def summarize_txt_document(txt_path):
-    with open(txt_path, 'r') as file:
-        content = file.read()
+    Args:
+        file_path (str): Path to the document.
+        is_pdf (bool, optional): Flag to indicate if the document is a PDF. Defaults to False.
+    """
+    if is_pdf:
+        content = pdf_to_text(file_path)
+    else:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            content = file.read()
 
     summary = summarize_large_content(content)
-    print('Text Summary:\n', summary)
-
-
-def summarize_pdf_document(pdf_path):
-    content = pdf_to_text(pdf_path)
-    summary = summarize_large_content(content)
-    print('PDF Summary:\n', summary)
-
+    print('Document Summary:\n', summary)
 
 if __name__ == '__main__':
-    summarize_txt_document('./woodpecker.txt')
+    summarize_document('./woodpecker.txt')
     print('*' * 120)
-    summarize_pdf_document('./ants.pdf')
+    summarize_document('./ants.pdf', is_pdf=True)
