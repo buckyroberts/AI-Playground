@@ -53,6 +53,20 @@ def summarize_large_content(content):
     combined_text = ' '.join(chunk_summaries)
     return generate_summary(combined_text)
 
+def pdf_to_text(pdf_path):
+    """
+    Converts a PDF file to text.
+
+    Args:
+        pdf_path (str): Path to the PDF file.
+
+    Returns:
+        str: Extracted text from the PDF file.
+    """
+    reader = PdfReader(pdf_path)
+    extracted_texts = [page.extract_text() for page in reader.pages]
+    return ' '.join(extracted_texts).replace('\n', ' ')
+
 def summarize_document(file_path, is_pdf=False):
     """
     Generates a summary of a text or PDF document.
