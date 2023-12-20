@@ -19,32 +19,18 @@ def generate_summary(text):
             {'role': 'system', 'content': 'You are a helpful assistant. Summarize the text provided.'},
             {'role': 'user', 'content': text}
         ],
-        max_tokens=1000
+        max_tokens=1024
     )
     summary = response.choices[0].message.content.strip()
     return summary
 
-def pdf_to_text(pdf_path):
-    """
-    Converts a PDF file to text.
-
-    Args:
-        pdf_path (str): Path to the PDF file.
-
-    Returns:
-        str: Extracted text from the PDF file.
-    """
-    reader = PdfReader(pdf_path)
-    extracted_texts = [page.extract_text() for page in reader.pages]
-    return ' '.join(extracted_texts).replace('\n', ' ')
-
-def split_text_into_chunks(text, chunk_size=32000):
+def split_text_into_chunks(text, chunk_size=4000):
     """
     Splits text into smaller chunks.
 
     Args:
         text (str): Text to be split.
-        chunk_size (int, optional): Size of each chunk. Defaults to 32,000.
+        chunk_size (int, optional): Size of each chunk. Defaults to 4,000.
 
     Returns:
         list[str]: List of text chunks.
@@ -62,6 +48,7 @@ def summarize_large_content(content):
         str: Summary of the large content.
     """
     chunks = split_text_into_chunks(content)
+    # print(f'This document has {len(chunks)} chunk{"" if len(chunks) == 1 else "s"}.')
     chunk_summaries = [generate_summary(chunk) for chunk in chunks]
     combined_text = ' '.join(chunk_summaries)
     return generate_summary(combined_text)
