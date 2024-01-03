@@ -1,29 +1,34 @@
+from openai import OpenAI
 import numpy as np
-import openai
 
-MODEL = 'text-similarity-ada-001'
+def cosine_similarity(a, b):
+    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
-response = openai.Embedding.create(
+client = OpenAI()
+
+MODEL = 'text-embedding-ada-002'
+
+response = client.embeddings.create(
     input="corn",
-    engine=MODEL,
+    model=MODEL,
 )
 print(response)
-print(len(response['data'][0]['embedding']))
+print(len(response.data[0].embedding))
 
-response = openai.Embedding.create(
+response = client.embeddings.create(
     input=["cat", "feline"],
-    engine=MODEL,
+    model=MODEL,
 )
-a = response['data'][0]['embedding']
-b = response['data'][1]['embedding']
-score = np.dot(a, b)
-print(score)
+a = response.data[0].embedding
+b = response.data[1].embedding
+score = cosine_similarity(a, b)
+print(f"Similarity score between 'cat' and 'feline': {score}")
 
-response = openai.Embedding.create(
+response = client.embeddings.create(
     input=["elephant", "microscope"],
-    engine=MODEL,
+    model=MODEL,
 )
-a = response['data'][0]['embedding']
-b = response['data'][1]['embedding']
-score = np.dot(a, b)
-print(score)
+a = response.data[0].embedding
+b = response.data[1].embedding
+score = cosine_similarity(a, b)
+print(f"Similarity score between 'elephant' and 'microscope': {score}")
