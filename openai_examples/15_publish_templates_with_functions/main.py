@@ -1,10 +1,9 @@
 import os
-
 import promptlayer
 
-openai = promptlayer.openai
-openai.api_key = os.getenv('OPENAI_API_KEY')
 promptlayer.api_key = os.environ.get('PROMPTLAYER_API_KEY')
+OpenAI = promptlayer.openai.OpenAI
+client = OpenAI()
 
 messages = [
     {
@@ -27,35 +26,6 @@ functions = [
                 "unit": {"type": "string", "enum": ["celsius", "fahrenheit"]},
             },
             "required": ["location"],
-        },
-    },
-    {
-        "name": "function_2",
-        "description": "Get the current weather in a given location",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "location": {
-                    "type": "string",
-                    "description": "The city and state, e.g. San Francisco, CA",
-                },
-                "unit": {"type": "string", "enum": ["celsius", "fahrenheit"]},
-            },
-            "required": [],
-        },
-    },
-    {
-        "name": "function_3",
-        "description": "Get the current weather in a given location",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "location": {
-                    "type": "string",
-                    "description": "The city and state, e.g. San Francisco, CA",
-                },
-                "unit": {"type": "string", "enum": ["celsius", "fahrenheit"]},
-            },
         },
     },
 ]
@@ -82,8 +52,8 @@ promptlayer.prompts.publish(
     },
 )
 
-response, pl_request_id = openai.ChatCompletion.create(
-    model="gpt-3.5-turbo",
+response, pl_request_id = client.chat.completions.create(
+    model="gpt-3.5-turbo-1106",
     messages=messages,
     functions=functions,
     function_call="auto",
@@ -92,7 +62,7 @@ response, pl_request_id = openai.ChatCompletion.create(
 
 promptlayer.track.prompt(
     request_id=pl_request_id,
-    prompt_name='test_chat_functions',
+    prompt_name='test_function_params',
     prompt_input_variables={
         'city': 'Pasadena',
         'interests': 'tacos, football, hiking'
