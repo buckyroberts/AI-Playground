@@ -1,14 +1,14 @@
 import promptlayer
+Anthropic = promptlayer.anthropic.Anthropic
 
-anthropic = promptlayer.anthropic
-
-client = anthropic.Anthropic()
-
-completion = client.completions.create(
-    prompt=f'{anthropic.HUMAN_PROMPT} Which NHL team plays in Pittsburgh?{anthropic.AI_PROMPT}',
-    model='claude-2',
-    max_tokens_to_sample=300,
+anthropic = Anthropic()
+message = anthropic.messages.create(
+    model="claude-2.1",
+    max_tokens=200,
+    system="You area helpful assistant. You only answer the exact question asked, you don't add any additional information to the answer.",
+    messages=[
+        {"role": "user", "content": "Which NHL team plays in Pittsburgh?"}
+    ]
 )
 
-print(completion)
-print(completion.completion)
+print(message.content[0].text)
