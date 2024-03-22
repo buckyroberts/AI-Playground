@@ -5,13 +5,21 @@ anthropic = promptlayer.anthropic
 promptlayer.api_key = os.environ.get('PROMPTLAYER_API_KEY')
 client = anthropic.Anthropic(api_key=os.environ.get('ANTHROPIC_API_KEY'))
 
-completion = client.completions.create(
-    prompt=f'{anthropic.HUMAN_PROMPT} How many toes do dogs have? {anthropic.AI_PROMPT}',
-    stop_sequences=[anthropic.HUMAN_PROMPT],
-    model='claude-v1-100k',
-    max_tokens_to_sample=100,
+completion = client.messages.create(
+    messages=[
+        {
+            'content': 'How many toes do dogs have?',
+            'role': 'user',
+        },
+    ],
+    temperature=0.0,
+    system='Respond only in Yoda-speak',
+    model='claude-3-haiku-20240307',
+    max_tokens=256,
     pl_tags=['animal-toes']
 )
-
+print()
 print(completion)
-print(completion.completion)
+print()
+print(completion.content[0].text)
+print()
